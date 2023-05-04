@@ -59,23 +59,29 @@ export default function Home() {
         <section>
           <h2 className='text-center p-2 mt-12 font-bold text-3xl text-red-950 dark:text-white'>Portfolio</h2>
           <div className='lg:flex gap-10 '>
+          <a href='https://project1-ten-drab.vercel.app/'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-gray-200 dark:bg-slate-400'>
             <Image src={data}  alt='/' />
             <h3 className='text-lg font-medium pt-8 pb-2'>Data Analytics Website</h3>
             <p className='dark:text-white dark:font-bold'>A food menu website is an online platform that provides users with a wide range of food options to choose from. The website usually features menus from various restaurants, cafes, and food trucks in a particular region or locality.</p>
-
+          
             </div>
+            </a>
+            <a href='https://project2-mauve.vercel.app/'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-gray-200 dark:bg-slate-400'>
             <Image src={food} alt='/' />
             <h3 className='text-lg font-medium pt-8 pb-2'>Food Menu Website</h3>
             <p className='dark:text-white dark:font-bold'>A data analytics website is a platform that provides users with a suite of tools and resources for analyzing and visualizing data. Typically, such a website will offer various functionalities for data management, including data storage and integration, data cleaning and preprocessing, and data transformation.</p>
             </div>
+            </a>
+            <a href='https://project-3-dun-kappa.vercel.app/'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-gray-200 dark:bg-slate-400'>
             <Image src={dash} alt='/' />
             <h3 className='text-lg font-medium pt-8 pb-2'>Dashboard Website</h3>
             <p className='dark:text-white dark:font-bold'>A dashboard website is a user interface that displays important information and data in a visual and easily digestible format. It typically consists of a collection of charts, graphs, and other visual representations of data that provide an overview of key metrics, trends, and performance indicators for a specific project, organization, or system.</p>
 
             </div>
+            </a> 
           </div>
         </section>
         
